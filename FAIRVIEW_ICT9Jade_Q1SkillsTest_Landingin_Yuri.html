@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+     <style>
+
+        body{
+               font-family: Arial; 
+               margin: auto; 
+               background:white;
+
+        }
+        img{
+               display: block;
+               margin: auto;
+               width: 50%; 
+               height: 180px;
+               border-radius: 4px; 
+        }
+
+        section{
+              background-color: aliceblue;
+              padding: 40px;
+              margin: 15px auto;
+              max-width: 800px;
+              border-radius: 10px;
+        }
+   
+        input[type="text"], input[type="email"], select, textarea{
+             width: 94%;
+             padding: 10px;
+             border: 1px solid white;
+            border-radius: 5px;
+       }
+
+       h1{
+        text-align: center;
+       }
+
+       p{
+        text-align: center;
+       }
+
+       img{
+        width: 200px;
+        height: 200px;
+       }
+
+    </style>
+</head>
+<body>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWHJT7Dj_pCvneMp-L1rmmHbPixBNPz-Ig7AswGn7G4LPu3xqQE6okPg&s=10" alt="obmclogo">
+       <h1>OBMC Robotics Club Application Form</h1>
+       <br>
+       <p> Welcome! Please fill out this form to apply for our school's Robotics club. </p>
+       <br>
+         <section>
+            <form action="">
+
+             <label for="fullname">Full Name:</label>
+             <br>
+             <input type="text" id="fullname" name="fullname">
+             <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="grade">Grade Level:</label>
+            <br>
+            <select id="grade" name="grade">
+                <option value="g7">Grade 7</option>
+                <option value="g8">Grade 8</option>
+                <option value="g9">Grade 9</option>
+                <option value="g10">Grade 10</option>
+            </select>
+            <br>
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+
+            <br>
+            <label>What are your skills?</label>
+            <br>
+
+            <input type="checkbox" id="coding" name="skills">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="design" name="skills">
+            <label for="design">Design</label>
+            <input type="checkbox" id="electronics" name="skills">
+            <label for="electronics">Electronics</label>
+
+            <br>
+
+
+            <label for="reason">Tell us why you want to join:</label>
+
+            <br>
+
+            <textarea id="reason" name="reason" rows="4" cols="40"
+            placeholder="Why do you want to join?"></textarea>
+
+            <br><br>
+
+
+            <h2>Top Robotics Activities We Offer:</h2>
+
+            <ul>
+
+                <li>Line Following Robots</li>
+
+                <li>Obstacle Avoidance Programming</li>
+
+                <li>Light Following Robot</li>
+
+            </ul>
+            <input type="submit" name="submit" value="Submit Application">
+            </form>
+
+</section>
+
+</body>
+</html>
